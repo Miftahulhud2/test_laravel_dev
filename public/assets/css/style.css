@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #585a61;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 100px;
+    width: 100%;
+    height: 1em;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 9999;
+
+}
+
+.navbar ul {
+    display: flex;
+    /* justify-content: space-around; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-right: 20px;
+    font-size: 1.2rem;
+    margin-left: 4%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #585a61;
+}
+
+.navbar.scrolled {
+    background-color: rgb(4, 156, 4);
+    height: 10px;
+    width: auto;
+}
+.slogan
+{
+    left: 10%;
+    top: 30%;
+    position: absolute;
+    width: 40%;
+}
+.slogan h1
+{
+    font-size: 3rem;
+}
+.slogan p
+{
+    position: relative;
+    margin-top: 3%;
+}
+.slogan a
+{
+    position: relative;
+
+}
+
+img.fluid
+{
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-bg {
+    background-color: #f2f5fa;
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.section-title p {
+    margin-bottom: 0;
+}
+#fitur
+{
+    margin-top: 38%;
+    position: relative;
+}
+.content
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.content .value
+{
+    width: 30%;
+    height: 30%;
+    /* background-color: aqua; */
+    /* margin: 1rem; */
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-toko
+{
+    margin-left: 1%;
+    width: 20%;
+}
+.card-toko img
+{
+    width: 20vmax;
+}
+.card-toko p
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* Jumlah baris yang ingin ditampilkan */
+    -webkit-box-orient: vertical;
+}
+
+#daftar
+{
+
+    justify-content: center;
+    align-items: center;
+}
+p#daftar
+{
+    justify-content: center;
+    align-items: center;
+}
+img#daftar
+{
+    width: 50vmax;
+    position: relative;
+
+}
+
+.karir
+{
+    margin-left: 1%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 40%; /* Lebar kartu sebesar 48% untuk memberi jarak antara kolom */
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-bottom: 20px; /* Jarak antara kartu secara vertikal */
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    background: #fff;
+    padding: 0 0 30px 0;
+    color: #47536e;
+    font-size: 14px;
+    background: #eff2f8;
+}
+  #footer .footer-newsletter {
+    padding: 50px 0;
+    background: #eff2f8;
+    text-align: center;
+    font-size: 15px;
+}
+
+#footer .footer-newsletter h4 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    color: #47536e;
+}
+
+#footer .footer-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#footer .footer-newsletter form input[type=email] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+}
+
+#footer .footer-newsletter form input[type=submit] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #5777ba;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#footer .footer-newsletter form input[type=submit]:hover {
+    background: #415f9d;
+}
+
+#footer .footer-top {
+    padding: 60px 0 30px 0;
+    background: #fff;
+}
+
+#footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h4 {
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+    color: #47536e;
+}
+
+#footer .footer-top .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #8a8c95;
+}
+
+#footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #47536e;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #9fb2d8;
+    font-size: 18px;
+    line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+    color: #8a8c95;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+    text-decoration: none;
+    color: #5777ba;
+}
+
+#footer .footer-top .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #5777ba;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+    background: #27282c;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .copyright {
+    text-align: center;
+    float: left;
+    color: #47536e;
+}
+
+#footer .credits {
+    float: right;
+    text-align: center;
+    font-size: 13px;
+    color: #47536e;
+}
+@media (max-width: 768px) {
+    .slogan
+    {
+        width: auto;
+        justify-content: center;
+        text-align: left;
+    }
+    .slogan h1
+    {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .slogan p
+    {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .slogan a
+    {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .row
+    {
+        display: block;
+    }
+    .card-toko
+    {
+        border: 1px solid;
+        justify-content: center;
+        left: 0;
+        width: auto;
+    }
+    #fitur
+    {
+        margin-top: 110%;
+        display: inline-block;
+        width: 100%;
+    }
+    #fitur .value
+    {
+        display: block;
+        width: auto;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .value {
+        width: 100%; /* Mengubah lebar menjadi 100% saat dalam mode mobile */
+        height: auto;
+    }
+}
